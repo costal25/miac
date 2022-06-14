@@ -1,0 +1,256 @@
+/*colors: #e9af96ff (salmon), #fffbf5ff (beige), #b8df9cff (green), #738497ff (slate)*/
+
+ /*nav styles*/
+
+ .navbar {
+    overflow: hidden;
+    background-color: #e9af96;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #fffbf5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .navbar a:hover {
+    background: #fffbf5;
+    color: #e9af96;
+  }
+  
+  .navbar a.active {
+    background-color: #fffbf5;
+    color: #e9af96;
+  }
+  body {
+      background-color: #fffbf5;
+  }
+ 
+
+  .topnav {
+    overflow: hidden;
+    background-color: #e9af96;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #fffbf5;
+    color: #e9af96;
+  }
+  .topnav a.active {
+    background-color: #fffbf5;
+    color: #e9af96;
+  }
+  
+  .topbg {
+    background-color: #738497;
+    height: 200px;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  /*text styles*/
+  
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffdfd2;
+    width: 100%;
+  }
+  
+  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+  }
+  h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  div.fav-foods {
+    float:right;
+    width: 400px;
+    padding: 30px;
+    border: 5px double #e9af96;
+    background-color: #738497;
+    margin-left: 10px;
+    margin-right: 0;
+    color: #fffbf5;
+  }
+  div.fun-run {
+    float:left;
+    width: 400px;
+    padding: 30px;
+    border: 5px double #e9af96;
+    background-color: #738497;
+    margin-right: 10px;
+    margin-left: 0;
+    color: #fffbf5;
+  }
+ /*images (besides logo)*/
+
+  img.relay3 {
+    float: right;
+    height: 400px;
+    padding: 15px;
+  }
+
+  img.bean {
+    float: right;
+    height: 450px;
+    padding: 15px;
+  }
+
+  img.chitchen-itza {
+    float: left;
+    height: 375px;
+    padding: 15px;
+  }
+
+  img.hawaii {
+    float: left;
+    height: 450px;
+    padding: 15px;
+  }
+
+  img.new-york {
+    float: right;
+    height: 375px;
+    padding: 15px;
+  }
+
+  img.beach-3 {
+    float:left;
+    height: 400px;
+    padding: 15px;
+  }
+
+  img.grad1 {
+    float: right;
+    height: 375;
+    padding: 15px;
+  }
+
+  img.grad2 {
+    float: left;
+    height: 450;
+    padding: 15px;
+  }
+
+  img.homecourse2 {
+    float: right;
+    height: 375px;
+    padding: 15px;
+  }
+
+  img.falmouth {
+    float:left;
+    height: 450px;
+    padding: 15px;
+  }
+
+  img.beach1 {
+    float: left;
+    height: 400px;
+    padding: 15px;
+  }
+
+  img.beach2 {
+    float: left;
+    height: 375px;
+    padding: 15px;
+  }
+
+  img.pinkspikes {
+    float: left;
+    height: 450px;
+    padding: 15px;
+  }
+
+  img.grad3 {
+    float: left;
+    height: 400px;
+    padding: 15px;
+  }
+
+  img.sunglasses1 {
+    float: left;
+    height: 450px;
+    padding: 15px;
+  }
+
+  img.relay2 {
+    float: left;
+    height: 400px;
+    padding: 15px;
+  }
+
+  img.relay1 {
+    float: left;
+    height: 375px;
+    padding: 15px;
+  }
+
+  img.homecourse1 {
+    float: left;
+    height: 400px;
+    padding: 15px;
+  }
+
+  img.grad1 {
+    float: left;
+    height: 375px;
+    padding: 15px;
+  }
+
+/*general styles*/
+
+body {
+  margin: 15px;
+}
+
+/* img credits */
+
+h6.credit1 {
+  position:absolute;
+  top: 370px;
+  right: 280px;
+}
+
+h6.credit2 {
+  position:absolute;
+  top: 870px ;
+  left: 30px;
+}
